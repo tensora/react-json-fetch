@@ -5,16 +5,17 @@ import './App.css'
 import Header1 from './Header1'
 import BooksComponent from './BooksComponent'
 import Currency from './Currency'
+import Testimonials from './Testimonials'
 
 function App() {
 
 
   return (
     <>
-      {/* <div>hello</div> */}
       <Header1/>
-      {/* <BooksComponent/> */}
       <Currency/>
+      {/* <BooksComponent/> */}
+      <Testimonials/>
     </>
   )
 }
